@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #333;
+}
+
+.snowfall {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-repeat: repeat;
+    z-index: 1000000;
+    pointer-events: none;
+    -moz-animation: snow_animation 10s linear infinite;
+    -webkit-animation: snow_animation 10s linear infinite;
+    animation: snow_animation 10s linear infinite;
+}
+
+@-moz-keyframes snow_animation {
+    0% {
+        background-position: 0 0, 0 0, 0 0;
+    }
+    100% {
+        background-position: 500px 3000px, 0 400px, 0 300px;
+    }
+}
+@-webkit-keyframes snow_animation {
+    0% {
+        background-position: 0 0, 0 0, 0 0;
+    }
+    100% {
+        background-position: 500px 3000px, 0 400px, 0 300px;
+    }
+}
+@keyframes snow_animation {
+    0% {
+        background-position: 0 0, 0 0, 0 0;
+    }
+    100% {
+        background-position: 500px 3000px, 0 400px, 0 300px;
+    }
+}
