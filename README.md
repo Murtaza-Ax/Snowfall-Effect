@@ -19,7 +19,7 @@
 
 Here is the demo video of "Snowfall Effect" page:
 
-<video src="demo/snow effect.mp4" style="width: 100%; height: 50vh;" autoplay muted controls loop></video>
+https://github.com/user-attachments/assets/c4f8db35-da8c-462e-9705-93996dcc6967
  
 <h2 id="tech">💻 Technologies</h2>
 
